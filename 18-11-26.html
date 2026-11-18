@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brew Haven Cafe</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#f5f5dc;
+    color:#333;
+}
+
+header{
+    background:#6f4e37;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+nav{
+    background:#8b4513;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:gold;
+}
+
+.hero{
+    text-align:center;
+    padding:50px 20px;
+}
+
+.hero h2{
+    margin-bottom:15px;
+}
+
+.menu{
+    padding:30px;
+    text-align:center;
+}
+
+.menu h2{
+    margin-bottom:20px;
+}
+
+.menu-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.card{
+    background:white;
+    width:250px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0px 2px 8px rgba(0,0,0,0.2);
+}
+
+.card h3{
+    color:#6f4e37;
+}
+
+.card p{
+    margin:10px 0;
+}
+
+button{
+    background:#6f4e37;
+    color:white;
+    border:none;
+    padding:10px 15px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#4e342e;
+}
+
+.contact{
+    padding:30px;
+    text-align:center;
+}
+
+footer{
+    background:#6f4e37;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>☕ Brew Haven Cafe</h1>
+    <p>The Perfect Place for Coffee Lovers</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#coffee">Coffee</a>
+    <a href="#desserts">Desserts</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero" id="home">
+    <h2>Welcome to Brew Haven Cafe</h2>
+    <p>Enjoy premium coffee, delicious desserts and a cozy atmosphere.</p>
+</section>
+
+<section class="menu" id="coffee">
+    <h2>☕ Coffee Menu</h2>
+
+    <div class="menu-container">
+
+        <div class="card">
+            <h3>Espresso</h3>
+            <p>₹120</p>
+            <button>Order Now</button>
+        </div>
+
+        <div class="card">
+            <h3>Cappuccino</h3>
+            <p>₹150</p>
+            <button>Order Now</button>
+        </div>
+
+        <div class="card">
+            <h3>Latte</h3>
+            <p>₹170</p>
+            <button>Order Now</button>
+        </div>
+
+        <div class="card">
+            <h3>Americano</h3>
+            <p>₹140</p>
+            <button>Order Now</button>
+        </div>
+
+        <div class="card">
+            <h3>Cold Coffee</h3>
+            <p>₹160</p>
+            <button>Order Now</button>
+        </div>
+
+        <div class="card">
+            <h3>Mocha</h3>
+            <p>₹180</p>
+            <button>Order Now</button>
+        </div>
+
+    </div>
+</section>
+
+<section class="menu" id="desserts">
+    <h2>🍰 Dessert Menu</h2>
+
+    <div class="menu-container">
+
+        <div class="card">
+            <h3>Chocolate Cake</h3>
+            <p>₹180</p>
+            <button>Order Now</button>
+        </div>
+
+        <div class="card">
+            <h3>Cheesecake</h3>
+            <p>₹220</p>
+            <button>Order Now</button>
+        </div>
+
+        <div class="card">
+            <h3>Brownie</h3>
+            <p>₹120</p>
+            <button>Order Now</button>
+        </div>
+
+        <div class="card">
+            <h3>Blueberry Muffin</h3>
+            <p>₹100</p>
+            <button>Order Now</button>
+        </div>
+
+        <div class="card">
+            <h3>Tiramisu</h3>
+            <p>₹250</p>
+            <button>Order Now</button>
+        </div>
+
+        <div class="card">
+            <h3>Ice Cream Sundae</h3>
+            <p>₹150</p>
+            <button>Order Now</button>
+        </div>
+
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <h2>📞 Contact Us</h2>
+    <p>Email: brewhaven@gmail.com</p>
+    <p>Phone: +91 9876543210</p>
+    <p>Location: Bengaluru, Karnataka</p>
+</section>
+
+<footer>
+    <p>© 2026 Brew Haven Cafe | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
